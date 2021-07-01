@@ -23,6 +23,7 @@ def sanjiao(n=10):
         print(z)
 
 sanjiao(8)
+sanjiao(5)
 
 print('success', datetime.datetime.now())
 
