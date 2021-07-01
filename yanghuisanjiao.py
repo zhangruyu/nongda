@@ -1,4 +1,7 @@
 #杨辉三角
+import datetime
+
+
 def sanjiao(n=10):
     a = [[0 for j in range(0, 2 * n - 1)] for i in range(0, n)];
     for i in range(0, n):
@@ -20,6 +23,8 @@ def sanjiao(n=10):
         print(z)
 
 sanjiao(8)
+
+print('success', datetime.datetime.now())
 
 '''
 n=10
